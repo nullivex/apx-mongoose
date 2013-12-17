@@ -15,35 +15,44 @@ $ npm install apx apx-mongoose
 var Apx = require('apx')
 var inst = new Apx({
   initializers: [require('apx-mongoose')],
-  db: {name: 'my-database'}
+  mongoose: {name: 'my-database', models: ['models/*.js']}
 })
 ```
 
 ## Configuration
 
 ### Host
-* Variable `db.host`
+* Variable `mongoose.host`
 * Required **no**
 * Default `127.0.0.1`
 
 Hostname ot connect to MongoDB
 
 ### Name
-* Variable `db.name`
+* Variable `mongoose.name`
 * Required **yes**
 
 Name of database to use
 
 ### User
-* Variable `db.user`
+* Variable `mongoose.user`
 * Required **no**
 * Default `''`
 
 Username to connect to MongoDB
 
 ### Password
-* Variable `db.password`
-* Require **no**
+* Variable `mongoose.password`
+* Required **no**
 * Default `''`
 
 Password to connect to MongoDB
+
+### Models
+* Variable `mongoose.models`
+* Required **no**
+
+Model files to load at boot time.
+
+Can be an array of globs or an array of paths or a single path
+or even an array of objects.

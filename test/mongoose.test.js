@@ -6,9 +6,9 @@ describe('InitializerMongoose',function(){
     apx = new Apx({
       testing: true,
       cwd: __dirname,
-      models: 'models/*.js',
-      db: {
-        name: 'apx-mongoose-init-test'
+      mongoose: {
+        name: 'apx-mongoose-init-test',
+        models: 'models/*.js'
       },
       onReady: function(){done()}
     })
