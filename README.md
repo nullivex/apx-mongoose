@@ -56,3 +56,14 @@ Model files to load at boot time.
 
 Can be an array of globs or an array of paths or a single path
 or even an array of objects.
+
+## Changelog
+
+### 0.3.0
+* Updated to work with apx 0.2.0
+
+### 0.2.0
+* Changed config prefix to mongoose.*
+
+### 0.1.0
+* Initial release
