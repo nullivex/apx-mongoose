@@ -1,4 +1,4 @@
-apx-mongoose
+apx-mongoose [![Build Status](https://travis-ci.org/snailjs/apx-mongoose.png?branch=0.3.0)](https://travis-ci.org/snailjs/apx-mongoose)
 ============
 
 Mongoose initializer for APX API server
