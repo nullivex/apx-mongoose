@@ -59,6 +59,10 @@ or even an array of objects.
 
 ## Changelog
 
+### 0.3.1
+* Updated to work with apx 0.3.0
+* Improved async handling for the apx 0.3.0 async init stack
+
 ### 0.3.0
 * Updated to work with apx 0.2.0
 
