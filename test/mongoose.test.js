@@ -11,9 +11,9 @@ describe('InitializerMongoose',function(){
       sysLogLevel: 2,
       testing: true,
       cwd: __dirname,
+      models: 'models/*.js',
       mongoose: {
-        name: 'apx-mongoose-init-test',
-        models: 'models/*.js'
+        name: 'apx-mongoose-init-test'
       }
     })
   })
