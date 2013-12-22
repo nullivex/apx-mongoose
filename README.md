@@ -13,11 +13,10 @@ $ npm install apx apx-mongoose
 
 ```js
 var apx = require('apx')
-apx.setup({
+apx.start({
   initializers: [require('apx-mongoose')],
   mongoose: {name: 'my-database', models: ['models/*.js']}
 })
-apx.stat()
 ```
 
 ## Configuration
