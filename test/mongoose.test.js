@@ -7,7 +7,7 @@ describe('InitializerMongoose',function(){
     apx.once('ready',function(){
       done()
     })
-    apx.setup({
+    apx.start({
       sysLogLevel: 2,
       testing: true,
       cwd: __dirname,
@@ -16,7 +16,6 @@ describe('InitializerMongoose',function(){
         models: 'models/*.js'
       }
     })
-    apx.start()
   })
   afterEach(function(done){
     apx.once('dead',function(){
