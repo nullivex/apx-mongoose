@@ -48,19 +48,18 @@ Username to connect to MongoDB
 
 Password to connect to MongoDB
 
-### Models
-* Variable `mongoose.models`
-* Required **no**
-
-Model files to load at boot time.
-
 Can be an array of globs or an array of paths or a single path
 or even an array of objects.
+
+## Models
+
+Models are loaded directly from the APX models config value `models`.
 
 ## Changelog
 
 ### 0.4.0
 * Upgraded to work with apx 0.4.0
+* Models now read directly from apx
 
 ### 0.3.1
 * Updated to work with apx 0.3.0
