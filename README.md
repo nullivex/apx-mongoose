@@ -12,11 +12,12 @@ $ npm install apx apx-mongoose
 ```
 
 ```js
-var Apx = require('apx')
-var inst = new Apx({
+var apx = require('apx')
+apx.setup({
   initializers: [require('apx-mongoose')],
   mongoose: {name: 'my-database', models: ['models/*.js']}
 })
+apx.stat()
 ```
 
 ## Configuration
@@ -58,6 +59,9 @@ Can be an array of globs or an array of paths or a single path
 or even an array of objects.
 
 ## Changelog
+
+### 0.4.0
+* Upgraded to work with apx 0.4.0
 
 ### 0.3.1
 * Updated to work with apx 0.3.0

@@ -1,3 +1,4 @@
+'use strict';
 var mongoose = require('mongoose')
   , schema
 
@@ -10,4 +11,4 @@ schema = new mongoose.Schema({
 
 exports.name = 'model'
 exports.description = 'Testing model'
-exports.model = mongoose.model('Test',schema)
+exports.module = mongoose.model('Test',schema)
