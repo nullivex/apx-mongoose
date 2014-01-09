@@ -11,4 +11,5 @@ schema = new mongoose.Schema({
 
 exports.name = 'model'
 exports.description = 'Testing model'
-exports.module = mongoose.model('Test',schema)
+exports.schema = schema
+exports.model = mongoose.model('Test',schema)

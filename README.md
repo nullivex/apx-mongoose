@@ -55,7 +55,21 @@ or even an array of objects.
 
 Models are loaded directly from the APX models config value `models`.
 
+### Model Format
+
+The model format follows the basic construction of models from mongoose and other NOSQL databases.
+
+```js
+exports.name = 'modelName'
+exports.description = 'Model Description'
+exports.schema = MongooseSchema
+exports.model = MongooseModel
+```
+
 ## Changelog
+
+### 0.5.0
+* Model format upgraded to include schema and be more intuitive
 
 ### 0.4.0
 * Upgraded to work with apx 0.4.0

@@ -34,7 +34,8 @@ describe('InitializerMongoose',function(){
     var init = require('../lib/mongoose')
     init.start(apx.instance,function(){
       expect(Object.keys(apx.instance.models).length).to.equal(1)
-      expect(apx.instance.models.model).to.be.a('function')
+      expect(apx.instance.models.model.model).to.be.a('function')
+      expect(apx.instance.models.model.schema).to.be.an('object')
       done()
     })
   })
