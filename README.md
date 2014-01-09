@@ -70,6 +70,7 @@ exports.model = MongooseModel
 
 ### 0.5.0
 * Model format upgraded to include schema and be more intuitive
+* Apx mow carries the entire plugin when loaded
 
 ### 0.4.0
 * Upgraded to work with apx 0.4.0
