@@ -68,6 +68,9 @@ exports.model = MongooseModel
 
 ## Changelog
 
+## 0.5.1
+Upgraded to APX 0.7.0 (no other changes)
+
 ### 0.5.0
 * Model format upgraded to include schema and be more intuitive
 * Apx now carries the entire plugin when loaded
