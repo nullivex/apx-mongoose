@@ -1,5 +1,16 @@
-apx-mongoose [![Build Status](https://travis-ci.org/snailjs/apx-mongoose.png?branch=0.3.0)](https://travis-ci.org/snailjs/apx-mongoose)
+APX Mongoose
 ============
+
+## Kado
+
+STOP AND READ THIS
+
+APX or Apex is no longer maintained and is superseded by Kado.
+
+A new package is available to handle all your JavaScript needs.
+See [kado.org](https://kado.org) for details.
+
+## Summary
 
 Mongoose initializer for APX API server
 

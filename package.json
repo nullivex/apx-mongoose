@@ -1,6 +1,6 @@
 {
   "name": "apx-mongoose",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Mongoose initializer for APX API server",
   "homepage": "https://github.com/snailjs/apx-mongoose",
   "bugs": "https://github.com/snailjs/apx-mongoose/issues",
