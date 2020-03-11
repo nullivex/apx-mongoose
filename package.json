@@ -29,7 +29,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "mongoose": "~3.8.2"
+    "mongoose": "~5.9.4"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
